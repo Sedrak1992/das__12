@@ -1,1 +1,1 @@
-console.log(hgdfiguhil)
+alert("uhd[");
