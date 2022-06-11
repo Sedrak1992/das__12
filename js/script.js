@@ -32,11 +32,11 @@ document.querySelector(".calc").onclick = (event) => {
       console.log(a, b, sign);
       out.textContent = a;
     } else if (a !== "" && b !== "" && finish) {
-      b = key;
+      b += key;
       finish = false;
       out.textContent = b;
     } else {
-      b += key;
+      b = key;
       out.textContent = b;
     }
     return;
